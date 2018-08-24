@@ -1,0 +1,123 @@
+#compass {
+    width: 380px;
+    height: 380px;
+    position: relative;
+}
+
+#north {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+#north h1 {
+    font-family: cursive;
+    font-size: 8wh;
+    margin: auto;
+}
+
+#center {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    display: flex;
+}
+
+#west {
+    width: 33%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+#west h1 {
+    font-family: cursive;
+    font-size: 8wh;
+    margin: auto;
+}
+
+#middle {
+    width: 34%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+#arrow {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+#arrow h1 {
+    margin: auto;
+    font-size: 8wh;
+    transform: rotate(180deg);
+}
+
+#east {
+    width: 33%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+#east h1 {
+    margin: auto;
+    font-size: 8wh;
+}
+
+#south {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+#south h1 {
+    margin: auto;
+    font-family: cursive;
+    font-size: 8ww;
+}
+
+#info {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+#info h1 {
+    margin: auto;
+    font-family: cursive;
+    font-size: 3wh;
+    font-size: 3vh;
+}
+
+#circle {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 75%;
+    border: solid;
+    align-items: center;
+    display: flex;
+}
+
+#arrow {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+/*
+#compass:hover #arrow {
+    transform:rotate(270deg);
+}
+*/
